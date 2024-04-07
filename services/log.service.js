@@ -2,11 +2,11 @@ import chalk from "chalk";
 
 export class LogService {
   static printError(message) {
-    console.error(chalk.bgRed("Error:") + " " + message);
+    console.error(chalk.bgRed("Error") + " " + message);
   }
 
   static printSuccess(message) {
-    console.error(chalk.bgGreen("Success:") + " " + message);
+    console.error(chalk.bgGreen("Success") + " " + message);
   }
 
   static printHelp() {
