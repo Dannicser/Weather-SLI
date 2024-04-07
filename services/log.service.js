@@ -14,8 +14,22 @@ export class LogService {
       chalk.bgRed(" HELP "),
       `
     -s [CITY] - set city
+    -t - set token
     -h - help
-    -t - save token
+    `
+    );
+  }
+
+  static printWeather({ name, weather, main, wind, visibility }) {
+    console.log(
+      chalk.bgYellowBright(`Weather in ${name}`),
+      `
+    ${chalk.bgBlue(weather[0].description)} - ${chalk.bgBlue(main.temp_min)}
+    ${chalk.bgYellowBright("feels like")} - ${chalk.bgYellowBright(main.feels_like)}
+    ${chalk.bgBlue("pressure")} - ${chalk.bgBlue(main.pressure)}
+    ${chalk.bgYellowBright("humidity")} - ${chalk.bgYellowBright(main.humidity)}
+    ${chalk.bgBlue("wind")} - ${chalk.bgBlue(wind.speed)}
+    ${chalk.bgYellowBright("visibility")} - ${chalk.bgYellowBright(visibility)}
     `
     );
   }
