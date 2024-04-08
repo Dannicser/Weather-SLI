@@ -1,6 +1,6 @@
 {
   "name": "weather-forecast-sli",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Getting weather forecast using console",
   "main": "weather.js",
   "bin": {

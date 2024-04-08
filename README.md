@@ -13,3 +13,5 @@
 _You can get weather api token here for free_ - https://openweathermap.org/api
 
 ![screenshot](./screenshots/weather_info.png)
+
+**npm** - https://www.npmjs.com/package/weather-forecast-sli
