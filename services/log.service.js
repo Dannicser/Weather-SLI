@@ -22,14 +22,14 @@ export class LogService {
 
   static printWeather({ name, weather, main, wind, visibility }) {
     console.log(
-      chalk.bgYellowBright(`Weather in ${name}`),
+      chalk.bgGreen(` Weather in ${name} `),
       `
-    ${chalk.bgBlue(weather[0].description)} - ${chalk.bgBlue(main.temp_min)}
-    ${chalk.bgYellowBright("feels like")} - ${chalk.bgYellowBright(main.feels_like)}
-    ${chalk.bgBlue("pressure")} - ${chalk.bgBlue(main.pressure)}
-    ${chalk.bgYellowBright("humidity")} - ${chalk.bgYellowBright(main.humidity)}
-    ${chalk.bgBlue("wind")} - ${chalk.bgBlue(wind.speed)}
-    ${chalk.bgYellowBright("visibility")} - ${chalk.bgYellowBright(visibility)}
+    ${weather[0].description} - ${main.temp_min}
+    ${"feels like"} - ${main.feels_like}
+    ${"pressure"} - ${main.pressure}
+    ${"humidity"} - ${main.humidity}
+    ${"wind"} - ${wind.speed}
+    ${"visibility"} - ${visibility}
     `
     );
   }
