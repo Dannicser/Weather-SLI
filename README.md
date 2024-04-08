@@ -1,6 +1,6 @@
 ## Console application for tracking weather conditions
 
-![screenshot](./screenshots/weather_info.png)
+![screenshot](https://sun9-75.userapi.com/impg/mAJeiwcil6Nz5wnrUeWN4-Z9MMHRa9qW6FBFmA/kS4M0vMkBcI.jpg?size=415x147&quality=96&sign=4da67909a79c0fdea5497992dfaa12a2&type=album)
 
 ### DOCUMENTATION
 
