@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { getArgs } from "./helpers/args.js";
 import { AppService } from "./services/app.service.js";
 import { LogService } from "./services/log.service.js";
